@@ -1,0 +1,35 @@
+# === Core Scientific Stack ===
+numpy==1.24.2
+pandas==2.0.3
+scikit-learn==1.2.2
+
+# === XGBoost (GPU-compatible) ===
+xgboost==1.7.6
+
+# === Spark ===
+pyspark==3.4.1
+
+# === Excel IO ===
+openpyxl==3.1.2
+
+# === Plotting & Notebook ===
+matplotlib==3.7.2
+jupyterlab==4.0.5
+notebook==7.0.3
+
+# === Arrow + Delta Lake ===
+# Matching versions that work with Spark 3.4 and Pandas 2.0
+pyarrow==12.0.1
+deltalake==0.17.1
+
+# === Jupyter Kernel Integration ===
+ipykernel==6.25.2
+
+# === Deep Learning (TensorFlow GPU-enabled if possible) ===
+tensorflow==2.16.1
+
+# === Progress bars (Rev16 batch-mode MC) ===
+tqdm==4.65.0
+
+# === Optional: nicer plots for Rev16 TF visualizations ===
+seaborn==0.12.2
